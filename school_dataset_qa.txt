@@ -1,0 +1,36 @@
+from datasets import Dataset
+
+data = [
+    {
+        "text": "Q: What is the name of the school?\nA: The name of the school is Green Valley Higher Secondary School."
+    },
+    {
+        "text": "Q: What type of institution is Green Valley School?\nA: It is a co-educational institution offering education from Grade 1 to Grade 12."
+    },
+    {
+        "text": "Q: When are admissions open?\nA: Admissions are open from April to June each year."
+    },
+    {
+        "text": "Q: What documents are required for admission?\nA: Students must submit previous academic records and a birth certificate."
+    },
+    {
+        "text": "Q: How are tuition fees paid?\nA: Tuition fees are paid quarterly."
+    },
+    {
+        "text": "Q: Is there a penalty for late fee payment?\nA: Yes, late payments may incur a penalty charge."
+    },
+    {
+        "text": "Q: What is the minimum attendance requirement?\nA: Students must maintain at least 75% attendance."
+    },
+    {
+        "text": "Q: How many books are available in the library?\nA: The library contains over 15,000 books, journals, and digital resources."
+    },
+    {
+        "text": "Q: Does the school provide transport services?\nA: Yes, school buses operate across major city routes with GPS tracking."
+    },
+    {
+        "text": "Q: What support services are available for students?\nA: Academic counseling and career guidance are available."
+    }
+]
+
+dataset = Dataset.from_list(data)
